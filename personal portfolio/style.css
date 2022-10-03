@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Rubik+Maze&display=swap');
+
+*{
+    margin:0px;
+    padding:opx;
+}
+.menu
+{
+    background-color: rgb(228, 238, 238);
+    width:169px;
+    font-family: 'Rubik Maze', cursive;
+    height:100vh;
+}
+.menu nav{
+    padding:15px;
+}
+.menu nav li{
+    list-style: none;
+    padding: 12px;
+}
+.menu nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: bisque; */
+    width:80vw;
+}
+.infocontainer{
+    /* background-color: beige; */
+    height:58vh;
+    width:60vw;
+    margin: 69px auto;
+    display:flex;
+    justify-content: space-around;
+     font-family: 'Aboreto', cursive;
+}
+.devPic img{
+    height: 58vh;
+
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 62px;
+}
+.name{
+    font-size: 35px;
+    font-weight: bold;
+}
+.about{
+    font-size: 22px;
+}
+.moreabout{
+    font-size:15px ;
+    font-family: 'Aboreto', cursive;
+}
+.button{
+    margin-top: 34px;
+}
+.button button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color:dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.button button:hover
+{
+    background-color:azure;
+    color:black;
+}
+.container{
+    display:flex;
+}
+
+
+
+.contactform{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 34px;
+    padding-top: 100px;
+}
+.contactform h1{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.contactform div{
+    padding: 4px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+#form-check{
+    flex-direction: row;
+}
+
+.content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    display: flex;
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+ .but{
+    color: brown;
+    padding:2px;
+    border-radius: 10px;
+    background-color: azure;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+.but:hover{
+    color:black;
+    background-color: aqua;
+}
